@@ -1,4 +1,11 @@
 # self-hosting
+
+MEC AP WPA 2: 8b140b20e7
+
+```
+ip a | grep 192
+```
+
 ## GHOST
 
 ```
