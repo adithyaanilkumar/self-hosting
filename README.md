@@ -7,7 +7,7 @@ curl https://repo.jellyfin.org/install-debuntu.sh | sudo bash
 ```
 or
 ```
-curl https://repo.jellyfin.org/install-debuntu.sh | sudo bash
+wget -O- https://repo.jellyfin.org/install-debuntu.sh | sudo bash
 ```
 
 ```
