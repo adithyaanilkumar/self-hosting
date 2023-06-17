@@ -1,5 +1,25 @@
 # self-hosting
 
+## Install JellyFin
+
+```
+curl https://repo.jellyfin.org/install-debuntu.sh | sudo bash
+```
+or
+```
+curl https://repo.jellyfin.org/install-debuntu.sh | sudo bash
+```
+
+```
+localhost:8096
+```
+
+## Install Open Media Vault
+
+```
+wget -O - https://raw.githubusercontent.com/OpenMediaVault-Plugin-Developers/installScript/master/install | sudo bash
+``
+
 ## Install - Docker
 
 ```
@@ -44,31 +64,7 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /va
 https://localhost:9443
 ```
 
-## Install Jellyfin
 
-```
-docker pull jellyfin/jellyfin
-```
-
-```
-docker volume create jellyfin-config
-docker volume create jellyfin-cache
-```
-
-```
-docker run -d \
- --name jellyfin \
- --user uid:gid \
- --net=host \
- --volume jellyfin-config:/config \
- --volume jellyfin-cache:/cache \
- --mount type=bind,source=/path/to/media,target=/media \
- --restart=unless-stopped \
- jellyfin/jellyfin
-```
-```
-localhost:8096
-```
 
 # 
 
