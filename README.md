@@ -60,11 +60,15 @@ docker run -d \
  --name jellyfin \
  --user uid:gid \
  --net=host \
- --volume jellyfin-config:/config
- --volume jellyfin-cache:/cache
+ --volume jellyfin-config:/config \
+ --volume jellyfin-cache:/cache \
  --mount type=bind,source=/path/to/media,target=/media \
  --restart=unless-stopped \
  jellyfin/jellyfin
 ```
+```
+localhost:8096
+```
 
+# 
 
