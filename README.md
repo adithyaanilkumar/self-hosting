@@ -1,6 +1,8 @@
 # self-hosting
 
-MEC AP WPA 2: 8b140b20e7
+MEC AP WPA 2: 
+
+pass word : 8b140b20e7
 
 ```
 ip a | grep 192
