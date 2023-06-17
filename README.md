@@ -8,6 +8,10 @@ pass word : 8b140b20e7
 ip a | grep 192
 ```
 
+
+u will get something like  : 192.168.2.100/22
+
+type 912.168.2.100 in ur phone browser
 ## GHOST
 
 ```
