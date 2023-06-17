@@ -11,7 +11,7 @@ ip a | grep 192
 
 u will get something like  : 192.168.2.100/22
 
-type 912.168.2.100 in ur phone browser
+type 912.168.2.100:3001 in ur phone browser
 ## GHOST
 
 ```
